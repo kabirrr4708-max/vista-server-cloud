@@ -59,3 +59,5 @@ app.post('/rfid', async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server VISTA berjalan di http://localhost:${PORT}`);
 });
+
+module.exports = app;
